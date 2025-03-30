@@ -1,28 +1,29 @@
 package org.example.basicStructures
 
 
-class BinaryTree<T: Comparable<T>> {
-    private var root: Node<T>? = null
 
-    fun insert(insertVal: T): Node<T> {
-        val insertNode = Node<T>(value = insertVal)
-        root?.let { insertRec(it, insertNode) } ?: run { root = insertNode }
-        return insertNode
+class BinaryTree<T: Comparable<T>> {
+    private var root: TreeNode<T>? = null
+
+    fun insert(insertVal: T): TreeNode<T> {
+        val insertTreeNode = TreeNode<T>(value = insertVal)
+        root?.let { insertRec(it, insertTreeNode) } ?: run { root = insertTreeNode }
+        return insertTreeNode
     }
-    private fun insertRec(current: Node<T>, newNode: Node<T>) {
+    private fun insertRec(current: TreeNode<T>, newTreeNode: TreeNode<T>) {
         when {
-            newNode.value < current.value -> {
+            newTreeNode.value < current.value -> {
                 if (current.left == null) {
-                    current.left = newNode
+                    current.left = newTreeNode
                 } else {
-                    insertRec(current.left!!, newNode)
+                    insertRec(current.left!!, newTreeNode)
                 }
             }
-            newNode.value > current.value -> {
+            newTreeNode.value > current.value -> {
                 if (current.right == null) {
-                    current.right = newNode
+                    current.right = newTreeNode
                 } else {
-                    insertRec(current.right!!, newNode)
+                    insertRec(current.right!!, newTreeNode)
                 }
             }
             else -> {
@@ -35,7 +36,7 @@ class BinaryTree<T: Comparable<T>> {
         return root?.let { searchRec(it, searchVal) } ?: false
     }
 
-    private fun searchRec(current: Node<T>, searchVal: T): Boolean {
+    private fun searchRec(current: TreeNode<T>, searchVal: T): Boolean {
         return when {
             searchVal == current.value -> {
                 true
@@ -57,7 +58,7 @@ class BinaryTree<T: Comparable<T>> {
         return
     }
 
-    private fun deleteRec(current: Node<T>?, valToDelete: T): Node<T>? {
+    private fun deleteRec(current: TreeNode<T>?, valToDelete: T): TreeNode<T>? {
         if (current == null) return null
         when {
             valToDelete == current.value -> {
@@ -75,37 +76,37 @@ class BinaryTree<T: Comparable<T>> {
         return current
     }
 
-    private fun findMin(current: Node<T>): Node<T> {
+    private fun findMin(current: TreeNode<T>): TreeNode<T> {
         return if (current.left == null) current else findMin(current.left!!)
     }
 
-    fun preOrderTraversal(current: Node<T>?, listOfNodes: MutableList<Node<T>> = mutableListOf()): MutableList<Node<T>> {
-        if (current == null) return listOfNodes
-        listOfNodes.add(current)
-        preOrderTraversal(current.left, listOfNodes)
-        preOrderTraversal(current.right, listOfNodes)
-        return listOfNodes
+    fun preOrderTraversal(current: TreeNode<T>?, listOfTreeNodes: MutableList<TreeNode<T>> = mutableListOf()): MutableList<TreeNode<T>> {
+        if (current == null) return listOfTreeNodes
+        listOfTreeNodes.add(current)
+        preOrderTraversal(current.left, listOfTreeNodes)
+        preOrderTraversal(current.right, listOfTreeNodes)
+        return listOfTreeNodes
     }
 
-    fun inOrderTraversal(current: Node<T>?, listOfNodes: MutableList<Node<T>> = mutableListOf()): MutableList<Node<T>> {
-        if (current == null) return listOfNodes
-        inOrderTraversal(current.left, listOfNodes)
-        listOfNodes.add(current)
-        inOrderTraversal(current.right, listOfNodes)
-        return listOfNodes
+    fun inOrderTraversal(current: TreeNode<T>?, listOfTreeNodes: MutableList<TreeNode<T>> = mutableListOf()): MutableList<TreeNode<T>> {
+        if (current == null) return listOfTreeNodes
+        inOrderTraversal(current.left, listOfTreeNodes)
+        listOfTreeNodes.add(current)
+        inOrderTraversal(current.right, listOfTreeNodes)
+        return listOfTreeNodes
     }
 
-    fun postOrderTraversal(current: Node<T>?, listOfNodes: MutableList<Node<T>> = mutableListOf()): MutableList<Node<T>> {
-        if (current == null) return listOfNodes
-        postOrderTraversal(current.left, listOfNodes)
-        postOrderTraversal(current.right, listOfNodes)
-        listOfNodes.add(current)
-        return listOfNodes
+    fun postOrderTraversal(current: TreeNode<T>?, listOfTreeNodes: MutableList<TreeNode<T>> = mutableListOf()): MutableList<TreeNode<T>> {
+        if (current == null) return listOfTreeNodes
+        postOrderTraversal(current.left, listOfTreeNodes)
+        postOrderTraversal(current.right, listOfTreeNodes)
+        listOfTreeNodes.add(current)
+        return listOfTreeNodes
     }
 
-    fun breadthFirstTraversal(): MutableList<Node<T>> {
-        val result = mutableListOf<Node<T>>()
-        val queue = ArrayDeque<Node<T>>()
+    fun breadthFirstTraversal(): MutableList<TreeNode<T>> {
+        val result = mutableListOf<TreeNode<T>>()
+        val queue = ArrayDeque<TreeNode<T>>()
         root?.let { queue.add(it) } ?: return result
         while (queue.isNotEmpty()) {
             val current = queue.removeFirst()
