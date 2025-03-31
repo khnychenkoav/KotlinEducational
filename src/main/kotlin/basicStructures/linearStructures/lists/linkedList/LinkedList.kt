@@ -1,4 +1,4 @@
-package org.example.basicStructures.LinearStructures.Lists.LinkedList
+package basicStructures.linearStructures.lists.linkedList
 
 class LinkedList<T> {
     private var head: Node<T>? = null

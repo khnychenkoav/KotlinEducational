@@ -1,9 +1,10 @@
-package org.example.basicStructures.QueuesStacks
+package basicStructures.queuesStacks
 
 class Stack<T> {
     private val elements: MutableList<T> = mutableListOf()
 
     fun isEmpty(): Boolean = elements.isEmpty()
+
     fun size(): Int = elements.size
 
     fun push(item: T) {

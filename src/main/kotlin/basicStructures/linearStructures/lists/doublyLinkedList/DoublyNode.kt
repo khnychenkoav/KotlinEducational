@@ -1,4 +1,4 @@
-package org.example.basicStructures.LinearStructures.Lists.DoublyLinkedList
+package basicStructures.linearStructures.lists.doublyLinkedList
 
 data class DoublyNode<T> (
     val data: T,

@@ -1,4 +1,4 @@
-package org.example.basicStructures.StringStructures.Trie
+package org.example.basicStructures.stringStructures.trie
 
 class Trie {
     private val root = TrieNode()

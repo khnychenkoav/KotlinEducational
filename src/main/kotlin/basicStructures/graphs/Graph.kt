@@ -1,4 +1,4 @@
-package org.example.basicStructures.Graphs
+package basicStructures.graphs
 
 class Graph<T> {
     private val adjacencyList: MutableMap<T, MutableList<T>> = mutableMapOf()

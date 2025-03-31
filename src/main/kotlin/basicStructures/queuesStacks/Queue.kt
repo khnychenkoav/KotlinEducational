@@ -1,4 +1,4 @@
-package org.example.basicStructures.QueuesStacks
+package basicStructures.queuesStacks
 
 class Queue<T> {
     private val elements: MutableList<T> = mutableListOf()
