@@ -1,4 +1,4 @@
-package org.example.basicStructures
+package org.example.basicStructures.PriorityStructures
 
 class MaxHeap<T : Comparable<T>> {
     private val heap = mutableListOf<T>()

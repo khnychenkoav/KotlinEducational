@@ -1,6 +1,4 @@
-package org.example.basicStructures
-
-import javax.print.attribute.standard.Destination
+package org.example.basicStructures.Graphs
 
 class Graph<T> {
     private val adjacencyList: MutableMap<T, MutableList<T>> = mutableMapOf()

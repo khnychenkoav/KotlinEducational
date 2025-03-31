@@ -1,4 +1,4 @@
-package org.example.basicStructures
+package org.example.basicStructures.Trees.BinaryTree
 
 data class TreeNode<T>(
     var value: T,

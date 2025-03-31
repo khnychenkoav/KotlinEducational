@@ -1,5 +1,4 @@
-package org.example.basicStructures
-
+package org.example.basicStructures.Trees.BinaryTree
 
 
 class BinaryTree<T: Comparable<T>> {

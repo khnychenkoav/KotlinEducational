@@ -1,4 +1,4 @@
-package org.example.basicStructures
+package org.example.basicStructures.LinearStructures.Lists.LinkedList
 
 data class Node<T> (
     var data: T,

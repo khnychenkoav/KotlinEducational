@@ -1,4 +1,4 @@
-package org.example.basicStructures
+package org.example.basicStructures.PriorityStructures
 
 class UnionFind<T> {
     private val parent = mutableMapOf<T, T>()

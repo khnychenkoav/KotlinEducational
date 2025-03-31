@@ -1,6 +1,6 @@
-package org.example.basicStructures
+package org.example.basicStructures.QueuesStacks
 
-class Queue<T> {
+class Stack<T> {
     private val elements: MutableList<T> = mutableListOf()
 
     fun isEmpty(): Boolean = elements.isEmpty()
@@ -12,16 +12,16 @@ class Queue<T> {
 
     fun pop(): T {
         if (isEmpty()) {
-            throw NoSuchElementException("Queue is empty!")
+            throw NoSuchElementException("Stack is empty!")
         }
-        return elements.removeAt(0)
+        return elements.removeAt(elements.size - 1)
     }
 
-    fun peel(): T {
+    fun peek(): T {
         if (isEmpty()) {
-            throw NoSuchElementException("Queue is empty!")
+            throw  NoSuchElementException("Stack is empty!")
         }
-        return elements[0]
+        return elements[elements.size - 1]
     }
 
     override fun toString(): String {
