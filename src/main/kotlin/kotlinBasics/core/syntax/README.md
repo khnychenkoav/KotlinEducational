@@ -24,17 +24,17 @@ Each topic is organized into **three types of files**:
 - `examples/` — Minimal working code examples
 - `exercises/` — Tasks for self-practice
 
-| Topic                       | Notes                          | Examples                          | Exercises                        |
-|----------------------------|----------------------------------|------------------------------------|----------------------------------|
-| Kotlin History & Philosophy| `notes/History.md`              | `examples/HelloWorld.kt`           | `exercises/HelloTask.kt`         |
-| Main Function & Structure  | `notes/MainFunction.md`         | `examples/MainFunction.kt`         | `exercises/MainQuiz.kt`          |
-| Printing Output            | `notes/Println.md`              | `examples/PrintExample.kt`         | `exercises/PrintTask.kt`         |
-| Comments                   | `notes/Comments.md`             | `examples/Comments.kt`             | `exercises/CommentTask.kt`       |
-| Expressions & Statements   | `notes/Expressions.md`          | `examples/Expressions.kt`          | `exercises/ExprTask.kt`          |
-| Semicolons & Formatting    | `notes/Semicolons.md`           | `examples/Semicolons.kt`           | `exercises/SemicolonQuiz.kt`     |
-| Idiomatic Code & Style     | `notes/IdiomaticStyle.md`       | `examples/Idiomatic.kt`            | `exercises/StyleFix.kt`          |
-| Under the Hood             | `notes/UnderTheHood.md`         | *(N/A)*                            | *(N/A)*                          |
-| Kotlin vs Other Languages  | `notes/LanguageComparisons.md`  | `examples/JavaComparison.kt`       | `exercises/JavaQuiz.kt`          |
+| Topic                       | Notes                          | Examples                       | Exercises                       |
+|----------------------------|----------------------------------|--------------------------------|---------------------------------|
+| Kotlin History & Philosophy| `notes/History.md`              | `examples/history`             | `exercises/history`             |
+| Main Function & Structure  | `notes/MainFunction.md`         | `examples/mainFunction`        | `exercises/mainFunction`        |
+| Printing Output            | `notes/Println.md`              | `examples/println`             | `exercises/println`             |
+| Comments                   | `notes/Comments.md`             | `examples/comments`            | `exercises/comment`             |
+| Expressions & Statements   | `notes/Expressions.md`          | `examples/expressions`         | `exercises/expressions`         |
+| Semicolons & Formatting    | `notes/Semicolons.md`           | `examples/semicolons`          | `exercises/semicolons`          |
+| Idiomatic Code & Style     | `notes/IdiomaticStyle.md`       | `examples/idiomatic`           | `exercises/idiomatic`           |
+| Under the Hood             | `notes/UnderTheHood.md`         | *(N/A)*                        | *(N/A)*                         |
+| Kotlin vs Other Languages  | `notes/LanguageComparisons.md`  | `examples/languageComparisons` | `exercises/languageComparisons` |
 
 ---
 
