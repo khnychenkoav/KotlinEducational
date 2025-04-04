@@ -138,9 +138,9 @@ When working with Kotlin's `main()` function and program structure, be mindful o
   }
   ```
 
-- **Incorrect `main()` Signature:** Forgetting to include the `args: Array<String>` parameter when expecting command-line arguments can lead to runtime issues. Ensure the `main()` function signature matches the application's requiements.
+- **Incorrect `main()` Signature:** Forgetting to include the `args: Array<String>` parameter when expecting command-line arguments can lead to runtime issues. Ensure the `main()` function signature matches the application's requirements.
 
-- **Misplacing Top-Level Declarations:** Placing top-level functions and variables outside of appropriate packages can lead to naming conflicts and hinder code organization. Always define a package at the beginning of your Kotli files.
+- **Misplacing Top-Level Declarations:** Placing top-level functions and variables outside appropriate packages can lead to naming conflicts and hinder code organization. Always define a package at the beginning of your Kotlin files.
 
   ```kotlin
   package com.example.myapp
