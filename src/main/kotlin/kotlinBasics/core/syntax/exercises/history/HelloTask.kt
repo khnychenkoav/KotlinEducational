@@ -1,4 +1,4 @@
-package org.example.kotlinBasics.core.syntax.exercises
+package org.example.kotlinBasics.core.syntax.exercises.history
 
 /**
  * Task:

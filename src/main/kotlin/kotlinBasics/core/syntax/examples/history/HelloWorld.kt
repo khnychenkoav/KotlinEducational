@@ -1,4 +1,4 @@
-package kotlinBasics.core.syntax.examples
+package org.example.kotlinBasics.core.syntax.examples.history
 
 // A minimal Kotlin program
 
