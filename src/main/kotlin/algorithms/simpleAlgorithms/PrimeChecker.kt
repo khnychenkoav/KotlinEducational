@@ -1,25 +1,25 @@
 package org.example.algorithms.simpleAlgorithms
 
+import kotlin.math.sqrt
+
 class PrimeChecker {
     private lateinit var sieve: BooleanArray
 
     private fun generateSieve(limit: Int) {
         sieve = BooleanArray(limit + 1) { true }
         sieve[0] = false
-        if (limit >= 1) sieve[1] = false
-
-        for (i in 2..limit) {
+        sieve[1] = false
+        for (i in 2..sqrt(limit.toDouble()).toInt()) {
             if (sieve[i]) {
-                var multiple = i * 2
-                while (multiple <= limit) {
-                    sieve[multiple] = false
-                    multiple += i
+                for (j in i * i..limit step i) {
+                    sieve[j] = false
                 }
             }
         }
     }
 
     fun isPrime(n: Int): Boolean {
+        if (n < 2) return false
         if (!::sieve.isInitialized || n >= sieve.size) {
             generateSieve(n)
         }

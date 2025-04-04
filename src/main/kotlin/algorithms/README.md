@@ -1,150 +1,181 @@
-### 1. Простые алгоритмы
+# 🧠 Core Algorithms in Kotlin
 
-1.1. Линейный поиск (Linear Search) – перебор элементов для нахождения значения.  
-1.2. Бинарный поиск (Binary Search) – эффективный поиск в отсортированном массиве.  
-1.3. Подсчёт частоты элементов (Frequency Count) – использование хеш-таблиц для подсчёта.  
-1.4. Реверс массива / строки (Reverse Array / String).  
-1.5. Проверка палиндрома (Is Palindrome) – проверка, читается ли строка одинаково в обе стороны.  
-1.6. Поиск минимума / максимума (Find Min/Max).  
-1.7. Число Фибоначчи (Fibonacci) – по определению, итеративно и рекурсивно.  
-1.8. Проверка простого числа (Is Prime).  
-1.9. Вычисление НОД и НОК (GCD & LCM) – через алгоритм Евклида.  
-1.10. Простая сортировка (Bubble Sort, Insertion Sort, Selection Sort).
+This section includes implementations of foundational and advanced algorithms in Kotlin. It's designed to serve as a practical reference and a learning tool for algorithmic problem solving.
 
 ---
 
-### 2. Алгоритмы сортировки
+## 1. Basic Algorithms
 
-2.1. Сортировка пузырьком (Bubble Sort) – простой, но неэффективный алгоритм.  
-2.2. Сортировка вставками (Insertion Sort) – эффективна на почти отсортированных массивах.  
-2.3. Сортировка выбором (Selection Sort) – выбирает минимальный элемент и ставит на место.  
-2.4. Бинарная сортировка вставками – оптимизация обычной сортировки вставками.  
-2.5. Пирамидальная сортировка (Heap Sort) – строит кучу и сортирует элементы по одному.  
-2.6. Быстрая сортировка (Quick Sort) – "разделяй и властвуй", быстрая в среднем, но неустойчивая.  
-2.7. Сортировка слиянием (Merge Sort) – стабильная сортировка с делением пополам.  
-2.8. Сортировка подсчётом (Counting Sort) – линейная по времени, когда известен диапазон значений.  
-2.9. Карманная сортировка (Bucket Sort) – деление на интервалы (карманы), сортировка каждого.  
-2.10. Поразрядная сортировка (Radix Sort) – сортировка по разрядам, подходит для чисел.  
-2.11. Сортировка Шелла (Shell Sort) – улучшает вставки, сортируя с промежутками.  
-2.12. Timsort – гибрид Merge Sort и Insertion Sort, используется в Java, Python.  
-2.13. Сортировка Бинарным деревом (Tree Sort) – вставка в BST и in-order обход.  
-2.14. Гномья сортировка (Gnome Sort) – "вставки в стиле бабушки".  
-2.15. Сортировка "плаванием" (Cocktail Shaker Sort) – улучшение пузырька в обе стороны.  
-2.16. Сортировка гребенкой (Comb Sort) – улучшение пузырька, уменьшающее количество сравнений.  
-2.17. Плавная сортировка (SmoothSort) – вариант Heap Sort с лучшей асимптотикой на частично отсортированных данных.  
-2.18. Блочная сортировка (Block Sort / Merge-Insertion) – гибридная сортировка для больших данных.  
-2.19. Flash Sort – очень быстрая, но нестабильная и специализированная.
+- ✅ **1.1 Linear Search** – brute-force traversal to find a target element
+- ✅ **1.2 Binary Search** – efficient search in a sorted array
+- ✅ **1.3 Frequency Count** – hash-based element frequency counting
+- ✅ **1.4 Array / String Reversal**
+- ✅ **1.5 Palindrome Check** – determine if a string reads the same forward and backward
+- ✅ **1.6 Min/Max Finder** – find the smallest and largest values
+- ✅ **1.7 Fibonacci Numbers** – iterative & recursive versions
+- ✅ **1.8 Prime Number Check**
+- ⬜ **1.9 GCD & LCM (Euclidean Algorithm)**
+- ⬜ **1.10 Basic Sorting (Bubble, Insertion, Selection)**
 
 ---
 
-### 3. Работа со строками
+## 2. Sorting Algorithms
 
-3.1. Поиск подстроки (Naive Search, Rabin-Karp).  
-3.2. Алгоритм Кнута–Морриса–Пратта (KMP).  
-3.3. Алгоритм Бойера–Мура (Boyer-Moore).  
-3.4. Построение префикс-функции.  
-3.5. Построение Z-функции.  
-3.6. Поиск наибольшей общей подстроки (LCS – Longest Common Substring).  
-3.7. Наибольшая общая подпоследовательность (LCS – Longest Common Subsequence).  
-3.8. Наименьшее общее надмножество (Shortest Common Supersequence).  
-3.9. Алгоритм Манакера – для поиска палиндромов за O(n).
+> *Coming soon – not yet implemented.*
 
----
-
-### 4. Алгоритмы на графах
-
-4.1. Поиск в глубину (DFS).  
-4.2. Поиск в ширину (BFS).  
-4.3. Поиск кратчайшего пути (Dijkstra).  
-4.4. Алгоритм Беллмана–Форда.  
-4.5. Алгоритм Флойда–Уоршелла.  
-4.6. Алгоритм A*.  
-4.7. Топологическая сортировка.  
-4.8. Поиск в компоненте связности (Connected Components).  
-4.9. Алгоритм Крускала (Kruskal's MST).  
-4.10. Алгоритм Прима (Prim's MST).  
-4.11. Алгоритм Тарьяна (для мостов и точек сочленения).  
-4.12. Алгоритм Косарайю / Габов / Тарьяна для поиска сильных компонент.  
-4.13. Двойной DFS для нахождения эйлерова пути / цикла.  
-4.14. Алгоритм Хёна (для нахождения всех путей).
+- ⬜ Bubble Sort
+- ⬜ Insertion Sort
+- ⬜ Selection Sort
+- ⬜ Binary Insertion Sort
+- ⬜ Heap Sort
+- ⬜ Quick Sort
+- ⬜ Merge Sort
+- ⬜ Counting Sort
+- ⬜ Bucket Sort
+- ⬜ Radix Sort
+- ⬜ Shell Sort
+- ⬜ Timsort
+- ⬜ Tree Sort
+- ⬜ Gnome Sort
+- ⬜ Cocktail Shaker Sort
+- ⬜ Comb Sort
+- ⬜ SmoothSort
+- ⬜ Block Sort
+- ⬜ Flash Sort
 
 ---
 
-### 5. Динамическое программирование (DP)
+## 3. String Algorithms
 
-5.1. Классическое "0/1" задание рюкзака (Knapsack).  
-5.2. Монетная сдача (Coin Change).  
-5.3. Расстояние Левенштейна (Edit Distance).  
-5.4. Наибольшая возрастающая подпоследовательность (LIS).  
-5.5. Подсчет путей в матрице (Grid Paths).  
-5.6. Максимальная сумма подмассива (Kadane’s Algorithm).  
-5.7. DP по подотрезкам (Matrix Chain Multiplication, Палиндромизация строки).  
-5.8. Bitmask DP (на подмножества).  
-5.9. DP с мемоизацией и рекурсией.  
-5.10. Оптимизация DP: сжатие состояний, Convex Hull Trick, Monotonic Queue Optimization.
+> *Coming soon – not yet implemented.*
 
----
-
-### 6. Поиск по множествам / пространству
-
-6.1. Бинарный поиск по ответу.  
-6.2. Ternary Search (поиск экстремума).  
-6.3. Алгоритм двух указателей (Two Pointers).  
-6.4. Сканирующая линия (Sweep Line).  
-6.5. Mo’s Algorithm – оффлайн-обработка запросов.
+- ⬜ Substring Search (Naive, Rabin-Karp)
+- ⬜ Knuth–Morris–Pratt (KMP)
+- ⬜ Boyer–Moore
+- ⬜ Prefix Function
+- ⬜ Z-Function
+- ⬜ Longest Common Substring (LCS)
+- ⬜ Longest Common Subsequence (LCS)
+- ⬜ Shortest Common Supersequence
+- ⬜ Manacher's Algorithm (palindromes)
 
 ---
 
-### 7. Геометрические алгоритмы
+## 4. Graph Algorithms
 
-7.1. Проверка пересечения отрезков.  
-7.2. Выпуклая оболочка (Convex Hull – Graham Scan, Andrew’s Algorithm).  
-7.3. Алгоритм вращающейся прямой.  
-7.4. Определение принадлежности точки многоугольнику.  
-7.5. Расстояние от точки до отрезка / прямой.  
-7.6. Нахождение площади многоугольника (по формуле Гаусса).
+> *Coming soon – not yet implemented.*
 
----
-
-### 8. Комбинаторика и теоретическая база
-
-8.1. Факториалы, биномиальные коэффициенты.  
-8.2. Быстрое возведение в степень (Fast Exponentiation).  
-8.3. Решето Эратосфена.  
-8.4. Расширенный алгоритм Евклида (Extended Euclidean).  
-8.5. Быстрое вычисление C(n, k) по модулю.  
-8.6. Нахождение обратного элемента по модулю.  
-8.7. Алгоритм Китая (CRT).  
-8.8. Алгоритм Берлекэмпа–Мэсси.  
-8.9. Перебор подмножеств, размещений, перестановок.  
-8.10. Разбиения чисел / множеств.
+- ⬜ Depth-First Search (DFS)
+- ⬜ Breadth-First Search (BFS)
+- ⬜ Shortest Path (Dijkstra)
+- ⬜ Bellman–Ford
+- ⬜ Floyd–Warshall
+- ⬜ A* Algorithm
+- ⬜ Topological Sort
+- ⬜ Connected Components
+- ⬜ Minimum Spanning Trees (Kruskal, Prim)
+- ⬜ Tarjan’s Algorithm (bridges & articulation points)
+- ⬜ Strongly Connected Components (Kosaraju, Tarjan)
+- ⬜ Eulerian Path / Cycle
+- ⬜ All Paths (Hyun’s Algorithm)
 
 ---
 
-### 9. Алгоритмы на деревьях
+## 5. Dynamic Programming (DP)
 
-9.1. Обходы дерева (префикс, инфикс, постфикс).  
-9.2. Lowest Common Ancestor (LCA) – двоичный подъём / RMQ.  
-9.3. Heavy-Light Decomposition (HLD).  
-9.4. Centroid Decomposition.  
-9.5. Сегментные деревья (Segment Tree, Lazy Propagation).  
-9.6. Деревья Фенвика (Fenwick Tree / BIT).  
-9.7. Sqrt-Decomposition для дерева.
+> *Coming soon – not yet implemented.*
+
+- ⬜ 0/1 Knapsack
+- ⬜ Coin Change
+- ⬜ Edit Distance (Levenshtein)
+- ⬜ Longest Increasing Subsequence (LIS)
+- ⬜ Grid Path Count
+- ⬜ Maximum Subarray Sum (Kadane's)
+- ⬜ Substring DP (Palindrome, Matrix Chain Multiplication)
+- ⬜ Bitmask DP
+- ⬜ Memoized Recursion
+- ⬜ DP Optimizations (CHT, Monotonic Queue, etc.)
+
+---
+
+## 6. Search Techniques
+
+> *Coming soon – not yet implemented.*
+
+- ⬜ Binary Search on Answer
+- ⬜ Ternary Search
+- ⬜ Two Pointers
+- ⬜ Sweep Line
+- ⬜ Mo’s Algorithm
 
 ---
 
-### 10. Прочее (ускорение, хитрые техники)
+## 7. Computational Geometry
 
-10.1. Сканирующая очередь (Sliding Window).  
-10.2. Monotonic Stack / Queue.  
-10.3. Декартово дерево (Treap / Cartesian Tree).  
-10.4. Алгоритм Карацубы / FFT (Fast Fourier Transform).  
-10.5. Union by Rank + Path Compression (в DSU).  
-10.6. Бинарный подъём (Binary Lifting).  
-10.7. Persistent структуры (immutable).  
-10.8. Offline / Online алгоритмы (разделяй и властвуй + Mo’s, etc.).  
-10.9. Алгоритмы для потоков (Max Flow: Ford-Fulkerson, Edmonds-Karp, Dinic).  
-10.10. Алгоритм Штрассена для перемножения матриц.  
-10.11. Минимакс и альфа-бета отсечение (в играх).
+> *Coming soon – not yet implemented.*
+
+- ⬜ Segment Intersection
+- ⬜ Convex Hull (Graham Scan, Andrew’s)
+- ⬜ Rotating Calipers
+- ⬜ Point-in-Polygon
+- ⬜ Distance from Point to Segment / Line
+- ⬜ Polygon Area (Shoelace Formula)
 
 ---
+
+## 8. Combinatorics & Number Theory
+
+> *Coming soon – not yet implemented.*
+
+- ⬜ Factorials & Binomial Coefficients
+- ⬜ Fast Exponentiation
+- ⬜ Sieve of Eratosthenes
+- ⬜ Extended Euclidean Algorithm
+- ⬜ Modulo C(n, k)
+- ⬜ Modular Inverse
+- ⬜ Chinese Remainder Theorem (CRT)
+- ⬜ Berlekamp–Massey
+- ⬜ Subset / Permutation / Combination Generation
+- ⬜ Integer / Set Partitioning
+
+---
+
+## 9. Tree Algorithms
+
+> *Coming soon – not yet implemented.*
+
+- ⬜ Tree Traversals (Pre, In, Post-order)
+- ⬜ LCA (Binary Lifting / RMQ)
+- ⬜ Heavy-Light Decomposition
+- ⬜ Centroid Decomposition
+- ⬜ Segment Trees (with Lazy Propagation)
+- ⬜ Fenwick Trees (BIT)
+- ⬜ Tree Decomposition (Sqrt, etc.)
+
+---
+
+## 10. Advanced Techniques
+
+> *Coming soon – not yet implemented.*
+
+- ⬜ Sliding Window
+- ⬜ Monotonic Stack / Queue
+- ⬜ Cartesian Tree (Treap)
+- ⬜ Karatsuba / FFT
+- ⬜ Union by Rank + Path Compression
+- ⬜ Binary Lifting
+- ⬜ Persistent Structures
+- ⬜ Offline / Online Divide & Conquer
+- ⬜ Max Flow (Ford-Fulkerson, Dinic)
+- ⬜ Strassen Matrix Multiplication
+- ⬜ Minimax & Alpha-Beta Pruning (Games)
+
+---
+
+## ✅ Legend
+
+- ✅ Implemented
+- ⬜ Planned / To-do
+
+---
+
