@@ -1,6 +1,6 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../images/Textbook.png">
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../images/SyntaxModule.png">
     <img alt="Gradle Logo" src="../../../../../../images/SyntaxModule.png">
   </picture>
 </div>
