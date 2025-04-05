@@ -7,45 +7,93 @@
 
 # Kotlin Educational 🚀
 
-Welcome to **Kotlin Educational** – a growing and hands-on learning repository focused on Kotlin, data structures, and algorithmic problem solving.
+Welcome to **Kotlin Educational** – a growing, hands-on Kotlin learning repository focused on programming fundamentals, data structures, and algorithmic thinking.
 
-> ⚠️ **Disclaimer:** This project is currently a work in progress. While it's already packed with useful code and educational materials, it's actively evolving and under construction. Contributions and feedback are welcome!
+> ⚠️ **Disclaimer:** This project is actively evolving. While many useful materials are already available, it’s still under construction. Feedback, questions, and contributions are always welcome!
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/SloganSecondPic.png">
+    <img alt="Gradle Logo" src="images/SloganSecondPic.png">
+  </picture>
+</div>
+---
+
+## 📚 What You'll Find Here
+
+- 🧠 **Kotlin Language Guide** – A modular, in-depth Kotlin tutorial: syntax, types, functions, coroutines, and more.
+- 🔧 **Algorithmic Foundations**  
+    Classic algorithms implemented and explained in Kotlin: searching, sorting, greedy, dynamic programming, recursion, backtracking, graphs, and more.
+- 📦 **Core Data Structures** – Idiomatic Kotlin implementations of stacks, queues, trees, graphs, and more.
+- 🧩 **LeetCode Challenges** – Clean Kotlin solutions with helpful commentary and explanations.
+- 🛠️ **Gradle Kotlin Project** – Well-structured and ready-to-run with proper packages and module separation.
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/Content.png">
+    <img alt="Gradle Logo" src="images/Content.png">
+  </picture>
+</div>
+---
+
+
+## 📘 Kotlin Language Guide (in progress)
+
+We’re building a full-scale **beginner-friendly Kotlin tutorial**, structured like a book — with theory, examples, and exercises.
+
+> Go beyond algorithms — master Kotlin as a real-world language.
+
+### 📖 Modules:
+
+| Module                     | Status  |
+|----------------------------|---------|
+| Syntax & Structure         | ✅ Started |
+| Variables and Types        | 🔜 Planned |
+| Functions                  | 🔜 Planned |
+| Control Flow (`if`, `when`, loops) | 🔜 Planned |
+| Null Safety                | 🔜 Planned |
+| Object-Oriented Kotlin     | 🔜 Planned |
+| Collections & Lambdas      | 🔜 Planned |
+| Coroutines & Concurrency   | 🔜 Planned |
+| Kotlin Multiplatform       | 🔜 Planned |
+| Kotlin Ecosystem & Tooling| 🔜 Planned |
+
+Each module includes:
+- 📘 Markdown-based theory with clear examples
+- 💡 Runnable Kotlin examples with comments
+- ✍️ Practice tasks and mini-projects
+- 📎 Reference links to official docs
+
+📍 *Location:* `src/main/kotlin/kotlinBasics/core/`
 
 ---
 
-## 📚 What You'll Find Here (So Far)
+## 🏗️ Roadmap
 
-- 🧠 **Core Data Structures**  
-  Implementations of classic data structures in Kotlin: stacks, queues, linked lists, trees (binary, trie), graphs, heaps, union-find, and more.
-
-- 🧩 **LeetCode Challenges**  
-  Selected solutions to problems from LeetCode with clean and well-commented Kotlin code.
-
-- 🛠️ **Gradle-based Kotlin Setup**  
-  Ready-to-run Kotlin project with Gradle for smooth development and easy navigation.
-
----
-
-## 🏗️ Roadmap (Coming Soon)
-
-This repository will eventually include:
-- ✍️ Theory guides with diagrams and explanations
-- 🧪 Unit tests for all structures and algorithms
-- 💡 Practical examples and mini-projects
-- 📈 Time and space complexity discussions
+Coming soon:
+- 🧠 Type system, functions, nullability
+- ✍️ Unit tests and automated feedback for exercises
+- 📈 Performance analysis and Big-O discussions
+- 💻 Real-world mini-projects
+- 🌐 Multiplatform Kotlin & Ktor examples
 
 ---
 
 ## 🤝 Contributions
 
-Feel free to contribute by submitting pull requests, fixing issues, or adding new ideas! Even a ⭐ helps this project grow.
+We love collaboration! You can:
+- Suggest improvements to the guide
+- Add examples or exercises
+- Solve or improve existing LeetCode problems
+- Improve documentation or add tests
+- Or just ⭐ the repo to show support!
 
 ---
 
 ## 📬 Contact
 
-For suggestions, ideas, or questions – [khnartem@gmail.com](mailto:khnartem@gmail.com)
+For feedback, contributions or questions –  
+📧 [khnartem@gmail.com](mailto:khnartem@gmail.com)
 
 ---
 
-Happy coding, and stay tuned for more updates! 🌱
+> Happy learning and clean coding!  
+> — From Kotlin, with 💛
