@@ -1,6 +1,6 @@
 package org.example.algorithms.simpleAlgorithms
 
-class MinMaxFinder {
+object MinMaxFinder {
     fun findMinMax(numbers: List<Int>): Pair<Int, Int>? {
         if (numbers.isEmpty()) return null
 

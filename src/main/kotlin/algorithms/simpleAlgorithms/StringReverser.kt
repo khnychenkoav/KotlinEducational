@@ -4,7 +4,7 @@ package org.example.algorithms.simpleAlgorithms
 Of course, it would be much better to use text.reversed()
  */
 
-class StringReverser {
+object StringReverser {
     fun reverse(text: String): String {
         val chars = CharArray(text.length)
         for (i in text.indices) {

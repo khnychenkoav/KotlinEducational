@@ -1,6 +1,6 @@
 package org.example.algorithms.simpleAlgorithms
 
-class PalindromeChecker {
+object PalindromeChecker {
     fun isPalindrome(text: String): Boolean {
         val len = text.length
         for (i in 0 until len / 2) {

@@ -1,6 +1,6 @@
 package org.example.algorithms.simpleAlgorithms
 
-class BinarySearch {
+object BinarySearch {
     fun search(arr: List<Int>, target: Int): Int {
         var left = 0
         var right = arr.size - 1

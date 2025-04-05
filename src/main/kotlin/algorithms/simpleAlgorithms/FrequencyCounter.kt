@@ -1,6 +1,6 @@
 package org.example.algorithms.simpleAlgorithms
 
-class FrequencyCounter {
+object FrequencyCounter {
     fun <T> countFrequency(list: List<T>): Map<T, Int> {
         val frequencyMap = mutableMapOf<T, Int>()
         for (item in list) {
