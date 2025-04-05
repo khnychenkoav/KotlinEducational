@@ -182,3 +182,10 @@ Understanding these aspects enables you to structure Kotlin programs effectively
 - Try your best with the exercise provided in the `exercises/mainFunction`.
 
 Let’s keep going — the next chapter is waiting for you!
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../../images/EndingLow.png">
+    <img alt="Gradle Logo" src="../../../../../../../images/EndingLow.png">
+  </picture>
+</div>

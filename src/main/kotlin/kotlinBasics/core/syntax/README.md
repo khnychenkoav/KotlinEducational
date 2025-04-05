@@ -64,3 +64,10 @@ Each topic is organized into **three types of files**:
 ---
 
 📌 **Tip**: You can go through this module like a book — one topic at a time — or jump between sections as needed. Everything here is designed to be modular, beginner-friendly, and production-relevant.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../images/EndingLow.png">
+    <img alt="Gradle Logo" src="../../../../../../images/EndingLow.png">
+  </picture>
+</div>

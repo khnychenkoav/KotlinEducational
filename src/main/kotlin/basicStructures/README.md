@@ -132,4 +132,9 @@ This section contains implementations of fundamental and advanced data structure
 - ⬜ **12.5 MST (Kruskal / Prim)**
 - ⬜ **12.6 SCC / Bridges / Articulation Points (Tarjan, Kosaraju)**
 
----
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../images/EndingLow.png">
+    <img alt="Gradle Logo" src="../../../../images/EndingLow.png">
+  </picture>
+</div>

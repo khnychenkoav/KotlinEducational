@@ -230,3 +230,10 @@ Try modifying some print statements:
 ✍️ Solve the task in `exercises/printTask`
 
 Let's keep going — **next up: Comments!**
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../../images/EndingLow.png">
+    <img alt="Gradle Logo" src="../../../../../../../images/EndingLow.png">
+  </picture>
+</div>

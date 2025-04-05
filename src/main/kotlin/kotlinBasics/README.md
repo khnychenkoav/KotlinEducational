@@ -91,3 +91,9 @@ The goal is to **build a Kotlin knowledge base**: idiomatic, modular, and focuse
 We are currently laying the foundation of the Kotlin learning track.
 Coming soon: syntax, types, functions.
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../images/EndingLow.png">
+    <img alt="Gradle Logo" src="../../../../images/EndingLow.png">
+  </picture>
+</div>

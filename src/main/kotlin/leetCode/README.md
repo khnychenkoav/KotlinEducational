@@ -69,7 +69,9 @@ More problems will be added regularly — both easy warmups and hardcore challen
 
 ## 🧠 More and more solved problems are coming soon!
 
----
-
-Happy problem-solving 💡
-ions.md`, если решим с LeetCode. Что скажешь?
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../images/EndingLow.png">
+    <img alt="Gradle Logo" src="../../../../images/EndingLow.png">
+  </picture>
+</div>

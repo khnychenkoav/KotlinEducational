@@ -149,3 +149,10 @@ You’re not just learning a language — you’re learning a way of thinking.
 - Try the first task in exercises/history: `HelloTask.kt`
 
 Let’s keep going — `Main Function & Structure` is waiting for you!
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../../images/EndingLow.png">
+    <img alt="Gradle Logo" src="../../../../../../../images/EndingLow.png">
+  </picture>
+</div>

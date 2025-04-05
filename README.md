@@ -97,3 +97,10 @@ For feedback, contributions or questions –
 
 > Happy learning and clean coding!  
 > — From Kotlin, with 💛
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/EndingLow.png">
+    <img alt="Gradle Logo" src="images/EndingLow.png">
+  </picture>
+</div>

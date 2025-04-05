@@ -182,5 +182,9 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Implemented
 - ⬜ Planned / To-do
 
----
-
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../images/EndingLow.png">
+    <img alt="Gradle Logo" src="../../../../images/EndingLow.png">
+  </picture>
+</div>
