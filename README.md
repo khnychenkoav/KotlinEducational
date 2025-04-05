@@ -1,3 +1,10 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="images/ClearLogoInv.png">
+    <img alt="Gradle Logo" src="images/ClearLogoInv.png">
+  </picture>
+</div>
+
 # Kotlin Educational 🚀
 
 Welcome to **Kotlin Educational** – a growing and hands-on learning repository focused on Kotlin, data structures, and algorithmic problem solving.
