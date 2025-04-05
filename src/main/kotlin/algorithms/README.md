@@ -22,13 +22,11 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ **1.7 Fibonacci Numbers** – iterative & recursive versions
 - ✅ **1.8 Prime Number Check**
 - ✅ **1.9 GCD & LCM (Euclidean Algorithm)**
-- ⬜ **1.10 Basic Sorting (Bubble, Insertion, Selection)**
+- ✅ **1.10 Basic Sorting (Bubble, Insertion, Selection)**
 
 ---
 
 ## 2. Sorting Algorithms
-
-> *Coming soon – not yet implemented.*
 
 - ⬜ Bubble Sort
 - ⬜ Insertion Sort
