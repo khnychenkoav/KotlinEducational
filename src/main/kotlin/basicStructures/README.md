@@ -1,3 +1,9 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../images/DataStructures.png">
+    <img alt="Gradle Logo" src="../../../../images/DataStructures.png">
+  </picture>
+</div>
 
 ## 📦 Core Data Structures in Kotlin
 

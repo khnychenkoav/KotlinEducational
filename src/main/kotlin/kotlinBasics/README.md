@@ -1,3 +1,10 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../images/Textbook.png">
+    <img alt="Gradle Logo" src="../../../../images/Textbook.png">
+  </picture>
+</div>
+
 # 📚 Kotlin Language Learning Module
 
 This section is dedicated to learning **Kotlin as a modern, industrial language** — going beyond algorithms and diving into its syntax, features, architecture, ecosystem, and real-world development.

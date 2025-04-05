@@ -1,3 +1,10 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../images/Algorithms.png">
+    <img alt="Gradle Logo" src="../../../../images/Algorithms.png">
+  </picture>
+</div>
+
 # 🧠 Core Algorithms in Kotlin
 
 This section includes implementations of foundational and advanced algorithms in Kotlin. It's designed to serve as a practical reference and a learning tool for algorithmic problem solving.
