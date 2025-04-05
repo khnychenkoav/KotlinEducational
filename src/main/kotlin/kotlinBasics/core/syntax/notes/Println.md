@@ -1,3 +1,11 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../../images/Println.png">
+    <img alt="Gradle Logo" src="../../../../../../../images/Println.png">
+  </picture>
+</div>
+
+
 # 🖨️ Printing Output in Kotlin: `println()`, String Interpolation, and Immutability
 
 Displaying text on the screen is one of the most fundamental actions in any program. In Kotlin, this is done using the `println()` function — but behind this simple line lies a set of powerful language features that shape how your programs communicate, debug, and log.

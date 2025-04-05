@@ -1,3 +1,11 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../../images/MainFunction.png">
+    <img alt="Gradle Logo" src="../../../../../../../images/MainFunction.png">
+  </picture>
+</div>
+
+
 # 🚀 Kotlin Entry Point: `main()` and Program Structure
 
 Understanding how a Kotlin program starts and how it's structured is fundamental to mastering the language. This chapter delves into the `main()` function, file organization, and the nuances of Kotlin's architecture across different platforms.

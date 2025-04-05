@@ -1,3 +1,11 @@
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../../images/History.png">
+    <img alt="Gradle Logo" src="../../../../../../../images/History.png">
+  </picture>
+</div>
+
 # 📖 Kotlin: A Modern Language for Real-World Development
 
 Kotlin isn’t just another trendy programming language. It’s a carefully engineered tool, built by developers who were tired of the limitations of existing languages — especially Java — and wanted something more expressive, concise, and pleasant to use.

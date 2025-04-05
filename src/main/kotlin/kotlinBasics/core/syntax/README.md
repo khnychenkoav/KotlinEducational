@@ -1,3 +1,10 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../images/Textbook.png">
+    <img alt="Gradle Logo" src="../../../../../../images/SyntaxModule.png">
+  </picture>
+</div>
+
 # 🧠 Kotlin Syntax Module
 
 Welcome to the first chapter of your Kotlin journey. This section introduces the **core syntax of the language**, laying the foundation for everything else — from data types and functions to classes, coroutines, and architecture.

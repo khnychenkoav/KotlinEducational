@@ -1,3 +1,10 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../../images/Comments.png">
+    <img alt="Gradle Logo" src="../../../../../../../images/Comments.png">
+  </picture>
+</div>
+
 # 💬 Writing Clear Code: Comments in Kotlin
 
 Comments are an essential part of writing clean, maintainable, and collaborative code. They help **communicate your intent**, explain complex logic, and leave useful notes for yourself or others.
