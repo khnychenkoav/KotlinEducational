@@ -1,0 +1,31 @@
+name: Content Suggestion
+description: Suggest new topics, examples, explanations, or improvements to the learning materials.
+title: "[Content] "
+labels: [content]
+assignees: khnychenkoav
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make this project better! Let us know what you think we should add or improve.
+
+  - type: input
+    id: target_section
+    attributes:
+      label: Target Section
+      description: Which part of the project are you referring to?
+      placeholder: kotlinBasics/core/syntax, Leetcode, Algorithms...
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your Suggestion
+      description: What would you like to see added or improved?
+      placeholder: e.g., Add an explanation of suspend functions with Playground links
+
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Why it matters
+      description: How would this help learners or improve understanding?
