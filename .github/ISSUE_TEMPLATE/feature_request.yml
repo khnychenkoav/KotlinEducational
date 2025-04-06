@@ -1,0 +1,31 @@
+name: Feature Request
+description: Suggest a new feature, tool, or enhancement.
+title: "[Feature] "
+labels: [enhancement]
+assignees: khnychenkoav
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got a cool idea? Let us know and we'll see how it fits into the project!
+
+  - type: input
+    id: area
+    attributes:
+      label: Area of the Project
+      description: Which module or folder would this apply to?
+      placeholder: kotlinBasics / algorithms / leetcode / general...
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe your idea in detail
+      placeholder: What should be added or changed, and why?
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Why is it useful?
+      description: How will this feature benefit learners or contributors?
