@@ -8,6 +8,13 @@
 # Kotlin Educational 🚀
 
 Welcome to **Kotlin Educational** – a growing, hands-on Kotlin learning repository focused on programming fundamentals, data structures, and algorithmic thinking.
+<div align="center">
+
+<h2>🌐 Visit the Official Kotlin Educational Website</h2>
+
+🔗 <a href="https://kotlinedu.vercel.app/" target="_blank"><strong>kotlinedu.vercel.app/</strong></a>
+
+</div>
 
 > ⚠️ **Disclaimer:** This project is actively evolving. While many useful materials are already available, it’s still under construction. Feedback, questions, and contributions are always welcome!
 <div align="center">
