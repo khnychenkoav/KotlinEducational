@@ -1,0 +1,51 @@
+name: Bug Report
+description: Report a reproducible bug or error in the Kotlin Educational project.
+title: "[Bug] "
+labels: [bug]
+assignees: khnychenkoav
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please help us reproduce and fix it by filling out the following:
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Where did the bug occur? (file path, function, module, etc.)
+      placeholder: src/main/kotlin/kotlinBasics/core/syntax/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please describe how to reproduce the issue.
+      placeholder: 1. Open X, 2. Run Y, 3. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened instead?
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: OS, IDE, Kotlin version, JDK, etc.
