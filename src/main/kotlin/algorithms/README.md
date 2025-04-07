@@ -33,7 +33,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Insertion Sort
 - ✅ Selection Sort
 - ✅ Binary Insertion Sort
-- ⬜ Heap Sort
+- ✅ Heap Sort
 - ⬜ Quick Sort
 - ⬜ Merge Sort
 - ⬜ Counting Sort
