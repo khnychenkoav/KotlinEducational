@@ -23,14 +23,15 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ **1.8 Prime Number Check**
 - ✅ **1.9 GCD & LCM (Euclidean Algorithm)**
 - ✅ **1.10 Basic Sorting (Bubble, Insertion, Selection)**
+- ✅ **1.11 Is Sorted Check** - basic utility to check if a list is sorted in ascending order.
 
 ---
 
 ## 2. Sorting Algorithms
 
-- ⬜ Bubble Sort
-- ⬜ Insertion Sort
-- ⬜ Selection Sort
+- ✅ Bubble Sort
+- ✅ Insertion Sort
+- ✅ Selection Sort
 - ⬜ Binary Insertion Sort
 - ⬜ Heap Sort
 - ⬜ Quick Sort

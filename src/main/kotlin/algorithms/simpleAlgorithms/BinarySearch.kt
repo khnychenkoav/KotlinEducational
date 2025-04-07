@@ -14,4 +14,11 @@ object BinarySearch {
         }
         return -1
     }
+
+    fun <T: Comparable<T>> lowerBound(list: List<T>, key: T, start: Int = 0, end: Int = list.size, checkSorted: Boolean = false): Int {
+        var left = start
+        var right = end
+
+    }
+
 }
