@@ -15,10 +15,42 @@ object BinarySearch {
         return -1
     }
 
-    fun <T: Comparable<T>> lowerBound(list: List<T>, key: T, start: Int = 0, end: Int = list.size, checkSorted: Boolean = false): Int {
+    fun <T: Comparable<T>> lowerBound(
+        list: List<T>,
+        key: T,
+        start: Int = 0,
+        end: Int = list.size,
+        checkSorted: Boolean = false,
+    ): Int {
+        if (checkSorted && !IsSortedChecker.isSorted(list)) {
+            throw IllegalArgumentException("List must be sorted!")
+        }
         var left = start
         var right = end
+        while (left < right) {
+            val mid = left + (right - left) / 2
+            if (list[mid] < key) left = mid + 1 else right = mid
+        }
+        return left
+    }
 
+    fun <T: Comparable<T>> upperBound(
+        list: List<T>,
+        key: T,
+        start: Int = 0,
+        end: Int = list.size,
+        checkSorted: Boolean = false,
+    ): Int {
+        if (checkSorted && !IsSortedChecker.isSorted(list)) {
+            throw IllegalArgumentException("List must be sorted!")
+        }
+        var left = start
+        var right = end
+        while (left < right) {
+            val mid = left + (right - left) / 2
+            if (list[mid] <= key) left = mid + 1 else right = mid
+        }
+        return left
     }
 
 }
