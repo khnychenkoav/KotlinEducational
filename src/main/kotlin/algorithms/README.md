@@ -36,7 +36,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Heap Sort
 - ✅ Quick Sort
 - ✅ Merge Sort
-- ⬜ Counting Sort
+- ✅ Counting Sort
 - ⬜ Bucket Sort
 - ⬜ Radix Sort
 - ⬜ Shell Sort
