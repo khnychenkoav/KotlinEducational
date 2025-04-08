@@ -39,7 +39,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Counting Sort
 - ✅ Bucket Sort
 - ✅ Radix Sort
-- ⬜ Shell Sort
+- ✅ Shell Sort
 - ⬜ Timsort
 - ⬜ Tree Sort
 - ⬜ Gnome Sort
