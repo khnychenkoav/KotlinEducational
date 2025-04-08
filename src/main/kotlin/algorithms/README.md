@@ -38,7 +38,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Merge Sort
 - ✅ Counting Sort
 - ✅ Bucket Sort
-- ⬜ Radix Sort
+- ✅ Radix Sort
 - ⬜ Shell Sort
 - ⬜ Timsort
 - ⬜ Tree Sort
