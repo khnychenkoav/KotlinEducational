@@ -40,7 +40,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Bucket Sort
 - ✅ Radix Sort
 - ✅ Shell Sort
-- ⬜ Timsort
+- ✅ Timsort
 - ⬜ Tree Sort
 - ⬜ Gnome Sort
 - ⬜ Cocktail Shaker Sort
