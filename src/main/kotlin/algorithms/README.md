@@ -46,7 +46,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Tree Sort
 - ✅ Gnome Sort
 - ✅ Cocktail Shaker Sort
-- ⬜ Comb Sort
+- ✅ Comb Sort
 - ⬜ SmoothSort
 - ⬜ Block Sort
 - ⬜ Flash Sort
