@@ -1,5 +1,7 @@
 package org.example.algorithms.sortingAlgorithms
 
+import org.example.algorithms.simpleAlgorithms.swap
+
 object GnomeSort {
     fun <T: Comparable<T>> sort(list: MutableList<T>) {
         var index = 1
@@ -11,11 +13,5 @@ object GnomeSort {
                 index --
             }
         }
-    }
-
-    private fun <T> MutableList<T>.swap(i: Int, j: Int) {
-        val tmp = this[i]
-        this[i] = this[j]
-        this[j] = tmp
     }
 }

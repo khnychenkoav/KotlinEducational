@@ -24,6 +24,8 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ **1.9 GCD & LCM (Euclidean Algorithm)**
 - ✅ **1.10 Basic Sorting (Bubble, Insertion, Selection)**
 - ✅ **1.11 Is Sorted Check** - basic utility to check if a list is sorted in ascending order.
+- ✅ **1.12 Swapper** - basic function to swap to elements in list.
+
 
 ---
 
@@ -43,7 +45,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Timsort
 - ✅ Tree Sort
 - ✅ Gnome Sort
-- ⬜ Cocktail Shaker Sort
+- ✅ Cocktail Shaker Sort
 - ⬜ Comb Sort
 - ⬜ SmoothSort
 - ⬜ Block Sort
