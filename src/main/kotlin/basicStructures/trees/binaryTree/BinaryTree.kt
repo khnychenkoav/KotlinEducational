@@ -117,4 +117,7 @@ class BinaryTree<T: Comparable<T>> {
 
     }
 
+    fun getRoot(): TreeNode<T>? = root
+
+
 }

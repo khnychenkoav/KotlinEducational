@@ -41,7 +41,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Radix Sort
 - ✅ Shell Sort
 - ✅ Timsort
-- ⬜ Tree Sort
+- ✅ Tree Sort
 - ⬜ Gnome Sort
 - ⬜ Cocktail Shaker Sort
 - ⬜ Comb Sort
