@@ -42,7 +42,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Shell Sort
 - ✅ Timsort
 - ✅ Tree Sort
-- ⬜ Gnome Sort
+- ✅ Gnome Sort
 - ⬜ Cocktail Shaker Sort
 - ⬜ Comb Sort
 - ⬜ SmoothSort
