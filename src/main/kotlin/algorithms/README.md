@@ -48,8 +48,12 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Cocktail Shaker Sort
 - ✅ Comb Sort
 - ✅ SmoothSort
-- ⬜ Block Sort
+- ✅ Block Sort
 - ✅ Flash Sort
+- ⬜ Cycle Sort
+- ⬜ Pancake Sort
+- ⬜ Bitonic Sort
+- ⬜ American Flag Sort
 
 ---
 
