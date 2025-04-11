@@ -49,7 +49,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Comb Sort
 - ✅ SmoothSort
 - ⬜ Block Sort
-- ⬜ Flash Sort
+- ✅ Flash Sort
 
 ---
 
