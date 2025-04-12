@@ -50,7 +50,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ SmoothSort
 - ✅ Block Sort
 - ✅ Flash Sort
-- ⬜ Cycle Sort
+- ✅ Cycle Sort
 - ⬜ Pancake Sort
 - ⬜ Bitonic Sort
 - ⬜ American Flag Sort
