@@ -52,7 +52,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Flash Sort
 - ✅ Cycle Sort
 - ✅ Pancake Sort
-- ⬜ Bitonic Sort
+- ✅ Bitonic Sort
 - ⬜ American Flag Sort
 
 ---
