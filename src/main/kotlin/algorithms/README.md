@@ -53,7 +53,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Cycle Sort
 - ✅ Pancake Sort
 - ✅ Bitonic Sort
-- ⬜ American Flag Sort
+- ✅ American Flag Sort
 
 ---
 
