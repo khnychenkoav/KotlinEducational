@@ -56,6 +56,8 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ American Flag Sort
 - ✅ Tournament Sort
 - ✅ Odd-Even Sort
+- ✅ Stooge Sort
+
 
 
 
