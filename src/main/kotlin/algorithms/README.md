@@ -58,6 +58,8 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Odd-Even Sort
 - ✅ Stooge Sort
 - ✅ Bogo Sort
+- ✅ Sleep Sort
+
 
 
 
