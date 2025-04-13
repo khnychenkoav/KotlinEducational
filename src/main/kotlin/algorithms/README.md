@@ -54,6 +54,8 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Pancake Sort
 - ✅ Bitonic Sort
 - ✅ American Flag Sort
+- ✅ Tournament Sort
+
 
 ---
 
