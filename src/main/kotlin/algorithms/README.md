@@ -57,6 +57,8 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Tournament Sort
 - ✅ Odd-Even Sort
 - ✅ Stooge Sort
+- ✅ Bogo Sort
+
 
 
 
