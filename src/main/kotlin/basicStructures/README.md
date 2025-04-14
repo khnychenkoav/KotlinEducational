@@ -67,7 +67,7 @@ This section contains implementations of fundamental and advanced data structure
 
 > *Planned – none implemented yet.*
 
-- ⬜ AVL Tree
+- ✅ AVL Tree
 - ⬜ Red-Black Tree
 - ⬜ Treap (Cartesian Tree)
 - ⬜ Splay Tree
