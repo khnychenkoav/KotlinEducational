@@ -107,6 +107,38 @@ class AVLTree<T : Comparable<T>> {
         }
     }
 
+    fun delete(value: T) {
+        root = deleteRec(root, value)
+    }
+
+    private fun deleteRec(node: AVLNode<T>?, value: T): AVLNode<T>? {
+        if (node == null) return null
+        when {
+            value < node.value -> node.left = deleteRec(node.left, value)
+            value > node.value -> node.right = deleteRec(node.right, value)
+            else -> {
+                if (node.left == null || node.right == null) {
+                    return node.left ?: node.right
+                } else {
+                    val successor = findMin(node.right!!)
+                    node.value = successor.value
+                    node.right = deleteRec(node.right, successor.value)
+                }
+            }
+        }
+
+        updateHeight(node)
+        return rebalance(node)
+    }
+
+    private fun findMin(node: AVLNode<T>): AVLNode<T> {
+        var current = node
+        while (current.left != null) {
+            current = current.left!!
+        }
+        return current
+    }
+
     fun inOrder(): List<T> {
         val result = mutableListOf<T>()
         inOrderTraversal(root, result)
