@@ -59,6 +59,8 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Stooge Sort
 - ✅ Bogo Sort
 - ✅ Sleep Sort
+- ✅ Patience Sort
+
 
 
 

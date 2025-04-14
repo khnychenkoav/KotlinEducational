@@ -1,4 +1,4 @@
-package basicStructures.queuesStacks
+package org.example.basicStructures.queuesStacks
 
 class Stack<T> {
     private val elements: MutableList<T> = mutableListOf()
@@ -28,4 +28,9 @@ class Stack<T> {
     override fun toString(): String {
         return elements.toString()
     }
+
+    fun toList(): List<T> {
+        return elements.toList().asReversed()
+    }
+
 }
