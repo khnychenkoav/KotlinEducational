@@ -94,6 +94,19 @@ class AVLTree<T : Comparable<T>> {
         return rotateLeft(node)
     }
 
+    fun contains(value: T): Boolean {
+        return searchRec(root, value)
+    }
+
+    private fun searchRec(node: AVLNode<T>?, value: T): Boolean {
+        if (node == null) return false
+        return when {
+            value == node.value -> true
+            value < node.value -> searchRec(node.left, value)
+            else -> searchRec(node.right, value)
+        }
+    }
+
     fun inOrder(): List<T> {
         val result = mutableListOf<T>()
         inOrderTraversal(root, result)
@@ -110,10 +123,4 @@ class AVLTree<T : Comparable<T>> {
     override fun toString(): String {
         return inOrder().joinToString(" -> ", prefix = "[", postfix = "]")
     }
-}
-
-fun main() {
-    val tree = AVLTree<Int>()
-    listOf(10, 20, 30, 40, 50, 25).forEach { tree.insert(it) }
-    println(tree) // Должно быть сбалансировано
 }
