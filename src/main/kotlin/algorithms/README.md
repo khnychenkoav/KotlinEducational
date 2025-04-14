@@ -60,6 +60,8 @@ This section includes implementations of foundational and advanced algorithms in
 - ✅ Bogo Sort
 - ✅ Sleep Sort
 - ✅ Patience Sort
+- ✅ Bead Sort
+
 
 
 
