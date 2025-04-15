@@ -65,8 +65,6 @@ This section contains implementations of fundamental and advanced data structure
 
 ### 7. Balanced Trees
 
-> *Planned – none implemented yet.*
-
 - ✅ AVL Tree
 - ⬜ Red-Black Tree
 - ⬜ Treap (Cartesian Tree)
@@ -82,9 +80,7 @@ This section contains implementations of fundamental and advanced data structure
 
 ### 8. Range Query Structures
 
-> *Planned – none implemented yet.*
-
-- ⬜ Segment Tree
+- ✅ Segment Tree
 - ⬜ Fenwick Tree (Binary Indexed Tree)
 - ⬜ Interval Tree
 - ⬜ Sparse Table
