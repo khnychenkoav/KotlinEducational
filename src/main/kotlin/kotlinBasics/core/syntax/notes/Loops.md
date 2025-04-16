@@ -1,3 +1,11 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../../images/Expressions.png">
+    <img alt="Expressions & Statements" src="../../../../../../../images/Loops.png">
+  </picture>
+</div>
+
+
 # 🔁 Kotlin Loops: for, while, and do-while
 
 Loops are fundamental constructs in programming that allow us to repeat actions multiple times. Instead of writing the same code again and again, we wrap it in a loop — letting the program handle repetition for us. Kotlin, like most modern languages, supports several types of loops: `for`, `while`, and `do..while`. Each serves a slightly different purpose but shares the same core goal: **execute a block of code repeatedly** under some condition.
@@ -277,3 +285,9 @@ Unlike Java, you don’t need to use verbose `Iterator` classes manually — the
 
 Happy looping! 🚴‍♂️
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../../../../../../../images/EndingLow.png">
+    <img alt="Gradle Logo" src="../../../../../../../images/EndingLow.png">
+  </picture>
+</div>
