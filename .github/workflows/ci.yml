@@ -36,7 +36,7 @@ jobs:
         run: ./gradlew assemble
       - name: Archive test results
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: junit-results
           path: build/test-results/**/*.xml
