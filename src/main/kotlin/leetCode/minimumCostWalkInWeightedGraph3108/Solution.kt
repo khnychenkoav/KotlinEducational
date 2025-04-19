@@ -55,11 +55,58 @@ query[i].length == 2
 si != ti
  */
 
-
-
 class Solution {
-    fun minimumCost(n: Int, edges: Array<IntArray>, query: Array<IntArray>): IntArray {
-        TODO("Solve this task (Hard)")
-        return IntArray(1)
+    fun minimumCost(
+        n: Int,
+        edges: Array<IntArray>,
+        query: Array<IntArray>
+    ): IntArray {
+        val full = (1 shl 17) - 1
+        val parent = IntArray(n) { it }
+        val rank   = IntArray(n) { 0 }
+        val compAnd = IntArray(n) { full }
+        fun find(x: Int): Int {
+            var v = x
+            while (parent[v] != v) {
+                parent[v] = parent[parent[v]]
+                v = parent[v]
+            }
+            return v
+        }
+        fun union(u: Int, v: Int, w: Int) {
+            val ru = find(u)
+            val rv = find(v)
+            if (ru == rv) {
+                compAnd[ru] = compAnd[ru] and w
+                return
+            }
+            val newAnd = compAnd[ru] and compAnd[rv] and w
+            when {
+                rank[ru] < rank[rv] -> {
+                    parent[ru] = rv
+                    compAnd[rv] = newAnd
+                }
+                rank[ru] > rank[rv] -> {
+                    parent[rv] = ru
+                    compAnd[ru] = newAnd
+                }
+                else -> {
+                    parent[rv] = ru
+                    rank[ru]++
+                    compAnd[ru] = newAnd
+                }
+            }
+        }
+        for ((u, v, w) in edges) {
+            union(u, v, w)
+        }
+        val ans = IntArray(query.size)
+        for (i in query.indices) {
+            val (s, t) = query[i]
+            val rs = find(s)
+            val rt = find(t)
+            ans[i] = if (rs != rt) -1 else compAnd[rs]
+        }
+        return ans
     }
 }
