@@ -24,7 +24,8 @@ jobs:
             ~/.gradle/caches
             ~/.gradle/wrapper
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*','**/gradle-wrapper.properties') }}
-          restore-keys: ${{ runner.os }}-gradle-
+          restore-keys: |
+            ${{ runner.os }}-gradle-
 
       - name: Make Gradle wrapper executable
         run: chmod +x ./gradlew
@@ -32,8 +33,6 @@ jobs:
       - name: Run tests
         run: ./gradlew clean test --info --console=plain
 
-      - name: Build artifacts
-        run: ./gradlew assemble
       - name: Archive test results
         if: always()
         uses: actions/upload-artifact@v4
@@ -43,7 +42,11 @@ jobs:
 
       - name: Annotate tests
         if: always()
-        uses: dorny/test-reporter@v1
+        uses: dorny/test-reporter@v2
         with:
           name: JUnit Tests
           path: build/test-results/**/*.xml
+          reporter: java-junit
+
+      - name: Build artifacts
+        run: ./gradlew assemble
