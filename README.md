@@ -106,8 +106,9 @@ Here's a guide to help you navigate through the repository easily:
 #### 💡 For Contributors:
 - Improve guide modules
 - Add test coverage
-- Build new utilities in [`scripts`](https://github.com/khnychenkoav/KotlinEducational/tree/master/scripts)
 - Add new LeetCode problems
+- Add new algorithms
+- Add new Data Structures
 
 ---
 
