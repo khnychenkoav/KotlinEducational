@@ -90,10 +90,8 @@ This section includes implementations of foundational and advanced algorithms in
 
 ## 4. Graph Algorithms
 
-> *Coming soon – not yet implemented.*
-
-- ⬜ Depth-First Search (DFS)
-- ⬜ Breadth-First Search (BFS)
+- ✅ Depth-First Search (DFS)
+- ✅ Breadth-First Search (BFS)
 - ⬜ Shortest Path (Dijkstra)
 - ⬜ Bellman–Ford
 - ⬜ Floyd–Warshall

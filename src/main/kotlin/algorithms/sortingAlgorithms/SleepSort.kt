@@ -8,7 +8,7 @@ object SleepSort {
         for (num in list) {
             if (num < 0) throw IllegalArgumentException("SleepSort doesn't work with negative numbers!")
             val thread = Thread {
-                Thread.sleep(num.toLong())
+                Thread.sleep(num.toLong() * 10)
                 synchronized(lock) {
                     result.add(num)
                 }
