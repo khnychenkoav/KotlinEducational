@@ -18,6 +18,8 @@ class Graph<T> {
 
     fun getNeighbors(vertex: T): List<T> = adjacencyList[vertex] ?: emptyList()
 
+    fun getVertices(): Set<T> = adjacencyList.keys
+
     fun dfs(start: T, visited: MutableSet<T> = mutableSetOf()) {
         if (!visited.add(start)) return
         println(start)

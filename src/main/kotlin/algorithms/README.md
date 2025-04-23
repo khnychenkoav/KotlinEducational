@@ -96,7 +96,7 @@ This section includes implementations of foundational and advanced algorithms in
 - ⬜ Bellman–Ford
 - ⬜ Floyd–Warshall
 - ⬜ A* Algorithm
-- ⬜ Topological Sort
+- ✅ Topological Sort
 - ⬜ Connected Components
 - ⬜ Minimum Spanning Trees (Kruskal, Prim)
 - ⬜ Tarjan’s Algorithm (bridges & articulation points)
