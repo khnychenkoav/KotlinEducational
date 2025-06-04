@@ -18,15 +18,12 @@ class BinaryTree<T: Comparable<T>> {
                     insertRec(current.left!!, newTreeNode)
                 }
             }
-            newTreeNode.value > current.value -> {
+            else -> { // newTreeNode.value >= current.value
                 if (current.right == null) {
                     current.right = newTreeNode
                 } else {
                     insertRec(current.right!!, newTreeNode)
                 }
-            }
-            else -> {
-                throw Exception("This value is already in Tree!")
             }
         }
     }
