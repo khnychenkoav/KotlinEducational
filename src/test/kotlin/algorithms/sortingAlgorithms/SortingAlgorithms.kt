@@ -61,4 +61,11 @@ class SortingAlgorithmsTest {
     @Test fun `TimSort sorts`()                     = runSortTest { TimSort.sort(it) }
     @Test fun `TournamentSort sorts`()              = runSortTest { TournamentSort.sort(it) }
     @Test fun `TreeSort sorts`()                    = runSortTest { TreeSort.sort(it) }
+
+    @Test fun `TreeSort sorts list with duplicates`() {
+        val original = mutableListOf(3, 1, 4, 3, 2, 2, 1)
+        val expected = original.sorted()
+        TreeSort.sort(original)
+        assertEquals(expected, original)
+    }
 }
