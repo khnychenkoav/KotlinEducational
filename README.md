@@ -130,7 +130,7 @@ We’re building a full-scale **beginner-friendly Kotlin tutorial**, structured 
 |------------------------------------|------------|
 | [Syntax & Structure ](https://github.com/khnychenkoav/KotlinEducational/tree/master/src/main/kotlin/kotlinBasics/core/syntax)            | ✅ Started  |
 | Variables and Types                | ✅ Finished |
-| Functions                          | 🔜 Planned |
+| Functions                          | ✅ Started |
 | Control Flow (`if`, `when`, loops) | 🔜 Planned |
 | Null Safety                        | 🔜 Planned |
 | Object-Oriented Kotlin             | 🔜 Planned |

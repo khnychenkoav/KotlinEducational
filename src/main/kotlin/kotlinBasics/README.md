@@ -18,7 +18,7 @@ The goal is to **build a Kotlin knowledge base**: idiomatic, modular, and focuse
 ### 1. Core Language Fundamentals
 - ⬜ Syntax and basic structure
 - ⬜ Type system: primitive, nullable, custom types
-- ⬜ Functions: declarations, lambdas, inline
+- ✅ Functions: declarations, lambdas, inline
 - ⬜ Control flow: `if`, `when`, loops
 - ⬜ Null safety and smart casting
 
