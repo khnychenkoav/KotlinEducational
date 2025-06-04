@@ -10,6 +10,8 @@ import org.example.basicStructures.linearStructures.arrays.*
 import basicStructures.linearStructures.lists.linkedList.*
 import basicStructures.linearStructures.lists.doublyLinkedList.*
 import org.example.basicStructures.linearStructures.lists.circularLinkedList.*
+import basicStructures.queuesStacks.Queue
+import org.example.basicStructures.queuesStacks.PriorityQueue
 
 
 class BasicStructuresTest {
@@ -104,6 +106,45 @@ class BasicStructuresTest {
             cll.insert(3)
             cll.delete(2)
             assertFalse(cll.contains(2))
+        }
+    }
+
+    @Nested
+    inner class QueueTest {
+        @Test fun `push pop and peek`() {
+            val queue = Queue<Int>()
+            queue.push(1)
+            queue.push(2)
+            assertEquals(1, queue.peek())
+            assertEquals(2, queue.size())
+            assertEquals(1, queue.pop())
+            assertEquals(1, queue.size())
+        }
+
+        @Test fun `empty queue throws`() {
+            val queue = Queue<Int>()
+            assertFailsWith<NoSuchElementException> { queue.pop() }
+            assertFailsWith<NoSuchElementException> { queue.peek() }
+        }
+    }
+
+    @Nested
+    inner class PriorityQueueTest {
+        @Test fun `push pop and peek`() {
+            val pq = PriorityQueue<Int>()
+            pq.push(3)
+            pq.push(1)
+            pq.push(2)
+            assertEquals(1, pq.peek())
+            assertEquals(3, pq.size())
+            assertEquals(1, pq.pop())
+            assertEquals(2, pq.peek())
+        }
+
+        @Test fun `empty priority queue throws`() {
+            val pq = PriorityQueue<Int>()
+            assertFailsWith<NoSuchElementException> { pq.pop() }
+            assertFailsWith<NoSuchElementException> { pq.peek() }
         }
     }
 }
