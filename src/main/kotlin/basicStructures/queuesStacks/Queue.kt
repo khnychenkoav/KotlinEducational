@@ -17,7 +17,7 @@ class Queue<T> {
         return elements.removeAt(0)
     }
 
-    fun peel(): T {
+    fun peek(): T {
         if (isEmpty()) {
             throw NoSuchElementException("Queue is empty!")
         }
